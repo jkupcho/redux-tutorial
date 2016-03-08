@@ -170,7 +170,7 @@ let AddTodo = ({ dispatch }) => {
     </div>
   );
 };
-// This will inject 'state' and 'dispatch' as props.
+// This will inject 'dispatch' as a prop.
 AddTodo = connect()(AddTodo);
 
 const Footer = () => (
